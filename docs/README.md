@@ -1,6 +1,6 @@
 ---
 home: true
-# heroImage: /myLogo.jpg
+heroImage: /logo.jpg
 heroText: Hero 标题
 tagline: Hero 副标题
 actionText: 快速上手 →

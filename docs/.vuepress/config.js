@@ -1,9 +1,9 @@
 module.exports = {
-    title: '飞跃高山与大洋的鱼',//标题
+    title: '飞跃高山',//标题
     description: '飞跃高山与大洋的鱼的文档',//利于seo
-    // head: [
-    //   ['link', { rel: 'icon', href: '/Favicon.ico' }]
-    // ],
+    head: [
+      ['link', { rel: 'icon', href: '/Favicon.ico' }]
+    ],
     locales: {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
