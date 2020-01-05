@@ -11,7 +11,7 @@ module.exports = {
           lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
         }
     },
-    base: '/vuepressBlog',
+    // base: '/vuepressBlog',
     themeConfig: {//导航链接
     //   navbar: false,//禁用所有导航栏
       repo: 'WkArtist/wkBlog',
