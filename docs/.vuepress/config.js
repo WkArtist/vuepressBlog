@@ -11,10 +11,10 @@ module.exports = {
           lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
         }
     },
-    // base: '/vuepressBlog',
+    base: '/vuepressBlog',
     themeConfig: {//导航链接
     //   navbar: false,//禁用所有导航栏
-      repo: 'WkArtist/wkBlog',
+      repo: 'WkArtist/vuepressBlog',
       lastUpdated: '上次更新',
       nav: [
         { text: 'Home', link: '/' },
@@ -84,6 +84,10 @@ module.exports = {
       },
       sidebarDepth: 2,//设置层级
       displayAllHeaders: true,//展开所有层级
+      // 默认是 false, 设置为 true 来启用
+      editLinks: true,
+      // 默认为 "Edit this page"
+      editLinkText: '帮助我们改善此页面！'
     }
   }
   
